@@ -1,0 +1,479 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      html, body, #map-canvas { height: 100%; margin: 0; padding: 0;}
+    </style>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js">
+    </script>
+    <script type="text/javascript">
+      var parcel = {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -71.10295951316618,
+                    42.3729701168066
+                  ],
+                  [
+                    -71.10303498307346,
+                    42.37288186454841
+                  ],
+                  [
+                    -71.10304686580174,
+                    42.372867515451325
+                  ],
+                  [
+                    -71.10326484890642,
+                    42.37296636815317
+                  ],
+                  [
+                    -71.10329019938594,
+                    42.3729781179015
+                  ],
+                  [
+                    -71.10333149376702,
+                    42.37299678281312
+                  ],
+                  [
+                    -71.10331615404134,
+                    42.37300564816029
+                  ],
+                  [
+                    -71.1033121943623,
+                    42.37300839315858
+                  ],
+                  [
+                    -71.10328295656792,
+                    42.37302951689303
+                  ],
+                  [
+                    -71.10324666392016,
+                    42.3730630340855
+                  ],
+                  [
+                    -71.10323269169255,
+                    42.373078078307266
+                  ],
+                  [
+                    -71.10322194318266,
+                    42.373092475068795
+                  ],
+                  [
+                    -71.10320094673345,
+                    42.37308277094055
+                  ],
+                  [
+                    -71.10295951316618,
+                    42.3729701168066
+                  ]
+                ]
+              ]
+            },
+            "type": "Feature",
+            "id": 7303,
+            "properties": {
+              "MAP": "113",
+              "LOC_ID": "F_763405_2961192",
+              "GlobalID": "{1B01436B-631D-474B-AD3F-FA275949C695}",
+              "ML": "113-46",
+              "LOT": "46",
+              "UYEAR": 0
+            }
+          },
+          {
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -71.10255045860964,
+                    42.372694955237264
+                  ],
+                  [
+                    -71.10257586683112,
+                    42.372662141557356
+                  ],
+                  [
+                    -71.1026383615737,
+                    42.37258137978388
+                  ],
+                  [
+                    -71.10297409145146,
+                    42.37274652498058
+                  ],
+                  [
+                    -71.10295474307557,
+                    42.37276906938076
+                  ],
+                  [
+                    -71.10287902248783,
+                    42.37285801788973
+                  ],
+                  [
+                    -71.10255045860964,
+                    42.372694955237264
+                  ]
+                ]
+              ]
+            },
+            "type": "Feature",
+            "id": 7473,
+            "properties": {
+              "MAP": "114A",
+              "LOC_ID": "F_763507_2961098",
+              "GlobalID": "{6536EF46-9DCF-4364-ADAA-2DAF0A90DD68}",
+              "ML": "114A-12",
+              "LOT": "12",
+              "UYEAR": 0
+            }
+          },
+          {
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -71.10245297114494,
+                    42.37282018725987
+                  ],
+                  [
+                    -71.10251102343953,
+                    42.372745611815
+                  ],
+                  [
+                    -71.10255045860964,
+                    42.372694955237264
+                  ],
+                  [
+                    -71.10287902248783,
+                    42.37285801788973
+                  ],
+                  [
+                    -71.10277671787044,
+                    42.372978403977925
+                  ],
+                  [
+                    -71.10245297114494,
+                    42.37282018725987
+                  ]
+                ]
+              ]
+            },
+            "type": "Feature",
+            "id": 7386,
+            "properties": {
+              "MAP": "114A",
+              "LOC_ID": "F_763533_2961141",
+              "GlobalID": "{B26B39FC-500A-45C1-A793-A5CF4FEDC88D}",
+              "ML": "114A-13",
+              "LOT": "13",
+              "UYEAR": 0
+            }
+          },
+          {
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -71.10237630142167,
+                    42.372918708982574
+                  ],
+                  [
+                    -71.10244271238474,
+                    42.37283318616395
+                  ],
+                  [
+                    -71.10245297114494,
+                    42.37282018725987
+                  ],
+                  [
+                    -71.10277671787044,
+                    42.372978403977925
+                  ],
+                  [
+                    -71.1026981998973,
+                    42.37307074535893
+                  ],
+                  [
+                    -71.10237630142167,
+                    42.372918708982574
+                  ]
+                ]
+              ]
+            },
+            "type": "Feature",
+            "id": 7319,
+            "properties": {
+              "MAP": "114A",
+              "LOC_ID": "F_763557_2961181",
+              "GlobalID": "{2EE02290-10F0-451C-BA98-0E991EE2035D}",
+              "ML": "114A-103",
+              "LOT": "103",
+              "UYEAR": 0
+            }
+          },
+          {
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -71.10230444415545,
+                    42.373011073121184
+                  ],
+                  [
+                    -71.10236973217242,
+                    42.37292760452005
+                  ],
+                  [
+                    -71.10237630142167,
+                    42.372918708982574
+                  ],
+                  [
+                    -71.1026981998973,
+                    42.37307074535893
+                  ],
+                  [
+                    -71.10269492175183,
+                    42.37307416413085
+                  ],
+                  [
+                    -71.10262158628535,
+                    42.373160349188524
+                  ],
+                  [
+                    -71.10230444415545,
+                    42.373011073121184
+                  ]
+                ]
+              ]
+            },
+            "type": "Feature",
+            "id": 7271,
+            "properties": {
+              "MAP": "114A",
+              "LOC_ID": "F_763577_2961215",
+              "GlobalID": "{50D37481-AC9B-4689-8B9C-0E03798DB08F}",
+              "ML": "114A-104",
+              "LOT": "104",
+              "UYEAR": 0
+            }
+          },
+          {
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -71.10288282172537,
+                    42.37306040656073
+                  ],
+                  [
+                    -71.10308829692258,
+                    42.37315921641073
+                  ],
+                  [
+                    -71.10309246578143,
+                    42.373161288851385
+                  ],
+                  [
+                    -71.10309659763375,
+                    42.37316336116418
+                  ],
+                  [
+                    -71.10300783410149,
+                    42.37326664370106
+                  ],
+                  [
+                    -71.10300115738058,
+                    42.3732631905648
+                  ],
+                  [
+                    -71.1028143385197,
+                    42.37317542128124
+                  ],
+                  [
+                    -71.10279334193318,
+                    42.37316574451896
+                  ],
+                  [
+                    -71.10288282172537,
+                    42.37306040656073
+                  ]
+                ]
+              ]
+            },
+            "type": "Feature",
+            "id": 7225,
+            "properties": {
+              "MAP": "113",
+              "LOC_ID": "F_763457_2961260",
+              "GlobalID": "{54F7BC6D-668A-434D-AA69-E15424C6F1EE}",
+              "ML": "113-77",
+              "LOT": "77",
+              "UYEAR": 0
+            }
+          },
+          {
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -71.10309659763375,
+                    42.37316336116418
+                  ],
+                  [
+                    -71.10309246578143,
+                    42.373161288851385
+                  ],
+                  [
+                    -71.10308829692258,
+                    42.37315921641073
+                  ],
+                  [
+                    -71.10288282172537,
+                    42.37306040656073
+                  ],
+                  [
+                    -71.10295951316618,
+                    42.3729701168066
+                  ],
+                  [
+                    -71.10320094673345,
+                    42.37308277094055
+                  ],
+                  [
+                    -71.10322194318266,
+                    42.373092475068795
+                  ],
+                  [
+                    -71.10321984945456,
+                    42.37309587050018
+                  ],
+                  [
+                    -71.10319436374847,
+                    42.37314105983029
+                  ],
+                  [
+                    -71.10316625996718,
+                    42.373196530404506
+                  ],
+                  [
+                    -71.10312220720897,
+                    42.37317511184283
+                  ],
+                  [
+                    -71.10310327865434,
+                    42.373166128291025
+                  ],
+                  [
+                    -71.10310098853431,
+                    42.37316543437062
+                  ],
+                  [
+                    -71.10309659763375,
+                    42.37316336116418
+                  ]
+                ]
+              ]
+            },
+            "type": "Feature",
+            "id": 7251,
+            "properties": {
+              "MAP": "113",
+              "LOC_ID": "F_763427_2961229",
+              "GlobalID": "{A74E5754-8262-4AFC-8233-FBC1BE2C129A}",
+              "ML": "113-45",
+              "LOT": "45",
+              "UYEAR": 0
+            }
+          }
+        ]
+      };
+
+      var ns = "http://www.w3.org/2000/svg";
+      
+      function StreetViewLayer(map) {
+        this.setMap(map);
+      }
+      
+      StreetViewLayer.prototype = new google.maps.OverlayView();
+      
+      StreetViewLayer.prototype.onAdd = function () {
+        var svg = document.createElementNS(ns, "svg");
+        svg.style.position = "absolute";
+        svg.setAttributeNS(null, "viewBox", "0 0 5000 5000");
+        svg.setAttributeNS(null, "width", 5000);
+        svg.setAttributeNS(null, "height", 5000);
+        this.svg = svg;
+        
+        this.polygons = [];
+        
+        for (var i = 0; i < parcel.features.length; i++) {
+          var polygon = document.createElementNS(ns, "polygon");
+          polygon.style.stroke = "Yellow";
+          polygon.style.strokeWidth = 2;
+          polygon.style.fill = "Yellow";
+          polygon.style.fillOpacity = 0.2;
+          svg.appendChild(polygon);
+          this.polygons.push(polygon);
+        }
+        
+        var panes = this.getPanes();
+        panes.overlayLayer.appendChild(svg);
+      };
+      
+      StreetViewLayer.prototype.draw = function () {
+        var overlayProjection = this.getProjection();
+        
+        for (var i = 0; i < parcel.features.length; i++) { 
+          var cc = parcel.features[i].geometry.coordinates[0].map(function (v) {
+            var c = overlayProjection.fromLatLngToDivPixel(new google.maps.LatLng(v[1], v[0]));
+            return c ? Math.round(c.x) + "," + Math.round(c.y) : null;
+          });
+
+          this.polygons[i].setAttributeNS(null, "points", cc.join(" "));
+        }
+      };
+      
+      StreetViewLayer.prototype.onRemove  = function () {
+        this.svg.parentNode.removeChild(this.svg);
+        this.svg = null;
+        this.polygons = null;
+      };
+      
+      function initialize() {
+        var map = new google.maps.Map(document.getElementById('map-canvas'), {
+          center: { lat: 42.372945, lng: -71.102842 },
+          zoom: 19,
+          mapTypeId: google.maps.MapTypeId.SATELLITE
+        });
+        map.setTilt(0);
+        map.data.setStyle({
+          strokeColor: "Yellow",
+          strokeWeight: 2,
+          fillColor: "Yellow",
+          fillOpacity: 0.2
+        });
+        map.data.addGeoJson(parcel);
+        
+        var layer = new StreetViewLayer(map.getStreetView());
+      }
+      
+      google.maps.event.addDomListener(window, 'load', initialize);
+      
+    </script>
+  </head>
+  <body>
+<div id="map-canvas"></div>
+  </body>
+</html>
+
